@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <!-- Boot Straps Icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gradient-to-r from-blue-500 to-purple-600">
+    <!-- navbar section start -->
+    <nav
+      class="navbar fixed bg-gradient-to-r from-blue-500 to-purple-600 p-4 w-full flex justify-between items-center z-50"
+    >
+      <div class="logo text-gray-200 text-xl font-bold tracking-widest ml-4">
+        <p>
+          <a href="" class="text-2xl :text-sky-400">Ikhsan.</a>
+        </p>
+      </div>
+
+      <!-- Hamburger Button -->
+      <button
+        id="menu-btn"
+        class="md:hidden text-gray-200 text-2xl focus:outline-none"
+      >
+        ☰
+      </button>
+
+      <div
+        id="menu"
+        class="nav-items hidden md:flex absolute flex-col md:flex-row md:space-x-4 text-gray-200 md:static top-16 right-0 w-full md:w-auto p-4 md:p-0 md:ml-auto"
+      >
+        <ul
+          class="flex flex-col md:flex-row text-gray-200 space-x-4 md:ml-auto"
+        >
+          <li class="relative hover:text-sky-400" id="home-btn">
+            <a
+              href="#home"
+              class="pb-1 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:border-b-2 after:border-sky-400 after:transition-all after:duration-300 hover:after:w-full"
+              >Home</a
+            >
+          </li>
+          <li class="relative hover:text-sky-400">
+            <a
+              href="#about"
+              class="pb-1 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:border-b-2 after:border-sky-400 after:transition-all after:duration-300 hover:after:w-full"
+              >About</a
+            >
+          </li>
+          <li class="relative hover:text-sky-400">
+            <a
+              href="#stacks"
+              class="pb-1 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:border-b-2 after:border-sky-400 after:transition-all after:duration-300 hover:after:w-full"
+              >Stacks</a
+            >
+          </li>
+          <li class="relative hover:text-sky-400">
+            <a
+              href="#project"
+              class="pb-1 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:border-b-2 after:border-sky-400 after:transition-all after:duration-300 hover:after:w-full"
+              >My Project</a
+            >
+          </li>
+          <li class="relative hover:text-sky-400">
+            <a
+              href="#socials"
+              class="pb-1 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:border-b-2 after:border-sky-400 after:transition-all after:duration-300 hover:after:w-full"
+              >Socials</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- navbar section end -->
+
+    <!-- hero section start -->
+    <section
+      class="hero text-center opacity-0 hero-animation pt-64 pb-32"
+      id="home"
+    >
+      <img
+        src="./assets/MuhammadIkhsan.jpg"
+        alt="Profile"
+        class="w-64 h-64 rounded-full shadow-lg mx-auto transform transition duration-500 hover:scale-110"
+      />
+      <h1 class="text-gray-200 text-4xl font-bold mt-4">Muhammad Ikhsan</h1>
+      <p class="mt-2 text-center max-w-md mx-auto">
+        <a href="https://git.io/typing-svg"
+          ><img
+            src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Fullstack+Developer;Gaming+Enthusiast;Content+Creator"
+            alt="Typing SVG"
+        /></a>
+      </p>
+      <div class="flex justify-center gap-4">
+        <button
+          class="rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 border-2 border-white p-2 mt-4"
+        >
+          <a href="#about" class="text-center text-gray-200">learn More</a>
+        </button>
+        <button
+          class="rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 border-2 border-white p-2 mt-4"
+        >
+          <a href="#socials" class="text-center text-gray-200">Hire Me</a>
+        </button>
+      </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- about section start -->
+    <section
+      class="about flex flex-col justify-center items-center pt-44 pb-32 about-animation"
+      id="about"
+    >
+      <h1 class="text-2xl font-bold text-gray-200 mb-10">
+        <i class="bi bi-person-raised-hand"></i> About Me
+      </h1>
+      <div class="flex flex-row text-center max-w-4xl mt-4 text-gray-200 gap-5">
+        <p class="max-w-prose text-center text-xl">
+          Hello, my name is Muhammad Ikhsan. I am a student at Institut
+          Teknologi Nasional. I am a programmer with a strong interest in the
+          world of technology. My passion for technology drives me to constantly
+          adapt and learn new technologies. I believe that in the ever-evolving
+          tech landscape, the ability to learn and innovate is key to success.
+          Throughout my career, I have worked on various projects that have
+          allowed me to continuously grow and contribute to creating efficient
+          and effective solutions.
+        </p>
+        <p class="max-w-prose ml-4 text-center text-xl">
+          My focus lies in developing software that not only solves problems but
+          also improves the user experience. I have a knack for identifying user
+          needs and translating them into innovative solutions. During my time
+          at Institut Teknologi Nasional, I have collaborated with peers on
+          several projects that enhance my skills and knowledge. I'm
+          particularly interested in areas such as artificial intelligence,
+          machine learning, and cybersecurity, and I am excited about the future
+          developments in these fields. My goal is to continuously grow and stay
+          updated with the latest advancements in technology to create impactful
+          solutions.
+        </p>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- stacks section start -->
+    <section
+      class="stacks pt-40 justify-center items-center stacks-animation"
+      id="stacks"
+    >
+      <h1 class="text-2xl text-center text-gray-200 font-bold">
+        <i class="bi bi-tools"></i> Stacks
+      </h1>
+      <p class="text-xl text-center text-gray-200 mt-4">
+        Here are some of the technologies I work with
+      </p>
+      <div
+        class="stacks-card-container flex justify-center items-center flex-wrap mt-8"
+      >
+        <!-- card html -->
+        <div
+          class="card bg-white rounded-lg shadow-lg p-6 m-4 w-32 hover:scale-110"
+        >
+          <img
+            src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png"
+            alt="HTML Logo"
+            class="w-16 h-16 mx-auto"
+          />
+          <h2 class="text-xl text-center mt-4 font-bold">HTML</h2>
+        </div>
+        <!-- card css -->
+        <div
+          class="card bg-white rounded-lg shadow-lg p-6 m-4 w-32 hover:scale-110"
+        >
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-512/css-131-722685.png"
+            alt="CSS Logo"
+            class="w-16 h-16 mx-auto"
+          />
+          <h2 class="text-xl text-center mt-4 font-bold">CSS</h2>
+        </div>
+        <!-- card js -->
+        <div
+          class="card bg-white rounded-lg shadow-lg p-6 m-4 w-32 hover:scale-110"
+        >
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-512/javascript-2752148-2284965.png"
+            alt="JS Logo"
+            class="w-16 h-16 mx-auto"
+          />
+          <h2 class="text-xl text-center mt-4 font-bold">JavaScript</h2>
+        </div>
+        <!-- card php -->
+        <div
+          class="card bg-white rounded-lg shadow-lg p-6 m-4 w-32 hover:scale-110"
+        >
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-512/php-27-226042.png"
+            alt="PHP Logo"
+            class="w-16 h-16 mx-auto"
+          />
+          <h2 class="text-xl text-center mt-4 font-bold">PHP</h2>
+        </div>
+        <!-- card python -->
+        <div
+          class="card bg-white rounded-lg shadow-lg p-6 m-4 w-32 hover:scale-110"
+        >
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-512/python-2-226051.png"
+            alt="Python Logo"
+            class="w-16 h-16 mx-auto"
+          />
+          <h2 class="text-xl text-center mt-4 font-bold">Python</h2>
+        </div>
+        <!-- card java -->
+        <div
+          class="card bg-white rounded-lg shadow-lg p-6 m-4 w-32 hover:scale-110"
+        >
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-512/java-43-569305.png"
+            alt="Java Logo"
+            class="w-16 h-16 mx-auto"
+          />
+          <h2 class="text-xl text-center mt-4 font-bold">Java</h2>
+        </div>
+        <!-- card spring -->
+        <div
+          class="card bg-white rounded-lg shadow-lg p-6 m-4 w-32 hover:scale-110"
+        >
+          <img
+            src="./assets/spring.jpg"
+            alt="Spring Logo"
+            class="w-16 h-16 mx-auto"
+          />
+          <h2 class="text-xl text-center mt-4 font-bold">Spring</h2>
+        </div>
+        <!-- card laravel -->
+        <div
+          class="card bg-white rounded-lg shadow-lg p-6 m-4 w-32 hover:scale-110"
+        >
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-512/laravel-226015.png"
+            alt="Laravel Logo"
+            class="w-16 h-16 mx-auto"
+          />
+          <h2 class="text-xl text-center mt-4 font-bold">Laravel</h2>
+        </div>
+        <!-- card flask -->
+        <div
+          class="card bg-white rounded-lg shadow-lg p-6 m-4 w-32 hover:scale-110"
+        >
+          <img
+            src="./assets/flask.jpg"
+            alt="Flask Logo"
+            class="w-16 h-16 mx-auto"
+          />
+          <h2 class="text-xl text-center mt-4 font-bold">Flask</h2>
+        </div>
+        <!-- card kotlin -->
+        <div
+          class="card bg-white rounded-lg shadow-lg p-6 m-4 w-32 hover:scale-110"
+        >
+          <img
+            src="./assets/kotlin.jpg"
+            alt="Kotlin Logo"
+            class="w-16 h-16 mx-auto"
+          />
+          <h2 class="text-xl text-center mt-4 font-bold">Kotlin</h2>
+        </div>
+        <!-- card flutter -->
+        <div
+          class="card bg-white rounded-lg shadow-lg p-6 m-4 w-32 hover:scale-110"
+        >
+          <img
+            src="./assets/flutter.jpg"
+            alt="Flutter Logo"
+            class="w-16 h-16 mx-auto"
+          />
+          <h2 class="text-xl text-center mt-4 font-bold">Flutter</h2>
+        </div>
+        <!-- card godot -->
+        <div
+          class="card bg-white rounded-lg shadow-lg p-6 m-4 w-32 hover:scale-110"
+        >
+          <img
+            src="./assets/godot.jpg"
+            alt="Godot Logo"
+            class="w-16 h-16 mx-auto"
+          />
+          <h2 class="text-xl text-center mt-4 font-bold">Godot</h2>
+        </div>
+      </div>
+    </section>
+    <!-- stacks section end -->
+
+    <!-- project section start -->
+    <section
+      class="project pt-40 justify-center items-center project-animation"
+      id="project"
+    >
+      <h1 class="text-2xl text-center text-gray-200 font-bold">
+        <i class="bi bi-lightbulb-fill"></i> My Project
+      </h1>
+      <p class="text-xl text-center text-gray-200 mt-4">
+        Here are some of the projects I have worked on
+      </p>
+      <div
+        class="project-card-container flex justify-center items-center flex-wrap mt-8"
+      >
+        <!-- Face Recognation Card -->
+        <div
+          class="card bg-gradient-to-r from-green-100 to-teal-200 rounded-lg shadow-lg p-6 m-4 w-80 hover:scale-105 transition-transform duration-300"
+        >
+          <img
+            src="./assets/face_recog.jpg"
+            alt="Face Recognition"
+            class="w-full h-48 object-cover rounded-lg"
+          />
+          <div class="p-4">
+            <h2 class="text-xl font-bold text-gray-800">Face Recognition</h2>
+            <p class="text-black mt-2">
+              A simple real-time face recognition project.
+            </p>
+            <div class="tech flex-row mt-2">
+              <span class="bg-blue-700 text-white rounded-lg p-1 text-sm mr-2"
+                >Python</span
+              >
+            </div>
+            <button
+              class="bg-blue-700 rounded-lg border-2 border-white p-2 mt-4 w-full hover:bg-sky-500 transition-colors duration-300"
+            >
+              <a
+                href="https://github.com/Sanikhsan12/realtime_face_detection"
+                class="text-center text-gray-200"
+                >Check Repository</a
+              >
+            </button>
+          </div>
+        </div>
+        <!-- Py Chess -->
+        <div
+          class="card bg-gradient-to-r from-purple-300 to-fuchsia-600 rounded-lg shadow-lg p-6 m-4 w-80 hover:scale-105 transition-transform duration-300"
+        >
+          <img
+            src="./assets/chess.jpg"
+            alt="Face Recognition"
+            class="w-full h-48 object-cover rounded-lg"
+          />
+          <div class="p-4">
+            <h2 class="text-xl font-bold text-gray-800">Simple Chess Games</h2>
+            <p class="text-black mt-2">
+              A simple chess game project using python at terminal.
+            </p>
+            <div class="tech flex-row mt-2">
+              <span class="bg-blue-700 text-white rounded-lg p-1 text-sm mr-2"
+                >Python</span
+              >
+            </div>
+            <button
+              class="bg-blue-700 rounded-lg border-2 border-white p-2 mt-4 w-full hover:bg-sky-500 transition-colors duration-300"
+            >
+              <a
+                href="https://github.com/Sanikhsan12/catur_sederhana"
+                class="text-center text-gray-200"
+                >Check Repository</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- projcet section end -->
+
+    <!-- socials section start -->
+    <section
+      class="socials pt-40 justify-center items-center socials-animation"
+      id="socials"
+    >
+      <h1 class="text-2xl text-center text-gray-200 font-bold">
+        <i class="bi bi-telephone"></i> "Let's Connect"
+      </h1>
+      <div
+        class="flex flex-col justify-center items-center mt-4 max-w-4xl mx-auto"
+      >
+        <p class="text-xl text-center text-gray-200 mt-4">
+          Feel free to reach out to me through social media. Whether you have
+          questions, collaboration ideas, or just want to say hi, I'm always
+          happy to chat!
+        </p>
+      </div>
+      <!-- Social media -->
+      <div
+        class="socials-container flex flex-row justify-center items-center gap-4 mt-4 mb-4"
+      >
+        <!-- Github -->
+        <div class="social-items text-gray-200 text-center w-[200px] gap-4">
+          <a href="https://github.com/Sanikhsan12">
+            <i class="bi bi-github text-6xl hover:text-sky-400"></i>
+          </a>
+          <p class="mt-2">Sanikhsan12</p>
+        </div>
+        <!-- Instagram -->
+        <div class="social-items text-gray-200 text-center w-[200px] gap-4">
+          <a href="https://www.instagram.com/mikhsn._/">
+            <i class="bi bi-instagram text-6xl hover:text-sky-400"> </i>
+          </a>
+          <p class="mt-2">mikhsan._</p>
+        </div>
+        <!-- Youtube -->
+        <div class="social-items text-gray-200 text-center w-[200px] gap-4">
+          <a href="https://www.youtube.com/@ZanZanSan">
+            <i class="bi bi-youtube text-6xl hover:text-sky-400"></i>
+          </a>
+          <p class="mt-2">ZanZanSan</p>
+        </div>
+        <!-- Gmail -->
+        <div class="social-items text-gray-200 text-center w-[200px] gap-4">
+          <i class="bi bi-envelope text-6xl hover:text-sky-400"></i>
+          <p class="mt-2">muhammadikhsan120404@gmail.com</p>
+        </div>
+      </div>
+      <div class="justify-center items-center flex mt-4 p-4">
+        <p class="text-gray-200 text-center text-xl">
+          Or you can contact me using form below
+        </p>
+      </div>
+      <!-- Form Kontak -->
+      <div class="flex justify-center items-center">
+        <form
+          action="https://formspree.io/f/mwpvbndz"
+          method="post"
+          class="flex flex-col items-center"
+          id="contactForm"
+        >
+          <input
+            class="rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 p-2 mt-4 border-2 border-white"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            class="rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 p-2 mt-4 border-2 border-white"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            class="rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 p-2 mt-4 border-2 border-white"
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Put The Message Here"
+            required
+          ></textarea>
+          <button
+            type="submit"
+            class="rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 border-2 border-white p-2 mt-4 text-gray-200"
+          >
+            Send
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- socials section end -->
+
+    <!-- footer section start -->
+    <footer class="footer text-center text-gray-200 p-4 mt-20">
+      <div class="wave wave1"></div>
+      <div class="wave wave2"></div>
+      <div class="wave wave3"></div>
+      <div class="wave wave4"></div>
+      <ul class="flex flex-row justify-center items-center gap-4 mt-4">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#stacks">Stacks</a></li>
+        <li><a href="#project">My Project</a></li>
+        <li><a href="#socials">Socials</a></li>
+      </ul>
+      <div class="end-phase">
+        <p>&copy; 2025 Muhammad Ikhsan. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- footer section end -->
+
+    <!-- js script -->
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
