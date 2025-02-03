@@ -150,7 +150,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100px;
-  background: url(wave.png);
+  background: url(/portofolio/assets/wave.png);
   background-size: 1000px 100px;
   z-index: -1;
 }
